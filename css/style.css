@@ -1,0 +1,150 @@
+
+/*-------
+
+GLOBAL
+
+--------*/
+
+* {
+    margin:0;
+    padding:0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+  }
+  
+body {
+    height: 100%;
+    background-color: #2d2c2d;
+  }
+
+  ol, ul {
+    list-style: none;
+  }
+
+header,footer,
+article,section,
+hgroup,nav,
+figure, .container{
+    display:block;
+}
+
+
+  /*-------
+
+Container
+
+--------*/
+
+.container {
+  
+  height: 100%;
+  width: 1200px;
+  margin: auto;
+  border-left: rgb(96, 96, 96) 1px solid;
+  border-right: rgb(96, 96, 96) 1px solid;
+}
+
+/*-------
+
+HEADER
+
+--------*/
+
+header, 
+.topContent{
+  height: 700px;
+  background-color: rgb(255, 255, 255);
+}
+
+.headerImg {
+  
+  height: 600px;
+  background-image: url("../img/outkast.jpg");
+  background-color: antiquewhite;
+  background-size: cover;
+  border-bottom: 2px solid #3b3d40;
+
+}
+
+/*-------
+
+NAV
+
+--------*/
+
+nav {
+  width: 500px;
+  margin: auto;
+  
+  
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Railway, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav li {
+  display: inline-block; /* step 1 */
+  width: 20%; /* step 4 */
+  margin-right: -4px; /* step 5 */
+}
+nav a {
+  display: block; /* step 2 */
+  text-decoration: none; /* step 3 */
+  color: rgb(108, 108, 108);
+}
+
+nav a:hover {
+  color:rgb(72, 72, 72);
+}
+
+nav a.active {
+  
+  cursor: default;
+}
+
+
+
+/*-------
+
+TOP CONTENT
+
+--------*/
+
+.topContent {
+
+
+}
+
+/*-------
+
+BOTTOM CONTENT
+
+--------*/
+
+.btmContent {
+  height: 700px;
+  background-image: linear-gradient(180deg,#e6555c, #ff934c);
+}
+
+
+
+/*-------
+
+FOOTER
+
+--------*/
+
+footer{
+  
+  height: 100px;
+  background-color: #3b3d40;
+ }
